@@ -10,9 +10,8 @@ module.exports = {
       }
     }
   },
-    //本机ip地址172.20.243.17:8080
   devServer:{
-    public:'172.20.243.17:8080',
+    public:'0.0.0.0:8080',
     port:8080,
     hot:true,
     disableHostCheck : true,  
